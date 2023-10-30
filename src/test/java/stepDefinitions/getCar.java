@@ -11,7 +11,7 @@ public class getCar {
 
     @DataProvider(name = "cars")
     public static Object[][] cars() {
-        return new Object[][] {{"Saloon", 200,"HTTP/1.1 200 OK"},{"SUV", 200,"HTTP/1.1 200 OK"},{"Sedan", 404,"HTTP/1.1 404 Not Found"}};
+        return new Object[][] {{"Saloon", 200,"HTTP/1.1 200 OK"},{"SUV", 200,"HTTP/1.1 200 OK"},{"Hatchback", 200,"HTTP/1.1 200 OK"},{"Sedan", 404,"HTTP/1.1 404 Not Found"},{" ", 404,"HTTP/1.1 404 Not Found"}};
     }
 
     @Test(dataProvider = "cars")

@@ -2,22 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Chami/Projects/AngloSDETassessment_2">
-<!--        <parameter name="type" value="Saloon" />-->
-<!--        <parameter name="code" value="200" />-->
-<!--        <parameter name="statusLine" value="HTTP/1.1 200 OK" />-->
-<!--        <parameter name="type" value="SUV" />-->
-<!--        <parameter name="code" value="200" />-->
-<!--        <parameter name="statusLine" value="HTTP/1.1 200 OK" />-->
-<!--        <parameter name="type" value="Hatchback" />-->
-<!--        <parameter name="code" value="200" />-->
-<!--        <parameter name="statusLine" value="HTTP/1.1 200 OK" />-->
-
-<!--        <parameter name="type" value="Sedan" />-->
-<!--        <parameter name="code" value="404" />-->
-<!--        <parameter name="statusLine" value="HTTP/1.1 404 Not Found" />-->
-<!--        <parameter name="type" value=" " />-->
-<!--        <parameter name="code" value="404" />-->
-<!--        <parameter name="statusLine" value="HTTP/1.1 404 Not Found" />-->
         <classes>
             <class name="stepDefinitions.getCar">
                 <methods>
